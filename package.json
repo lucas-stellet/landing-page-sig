@@ -11,5 +11,11 @@
     "url": "https://gitinho.sig.digital/lucas.pedreiro/landing-page-sig"
   },
   "author": "Sig Certificadora - Lucas Stellet Pedreiro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
 }
