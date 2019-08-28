@@ -1,0 +1,15 @@
+{
+  "name": "landing-page-sig",
+  "version": "1.0.0",
+  "description": "Página de captura de novos clientes interessados na plataforma de negócios para certificado digital.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitinho.sig.digital/lucas.pedreiro/landing-page-sig"
+  },
+  "author": "Sig Certificadora - Lucas Stellet Pedreiro",
+  "license": "ISC"
+}
