@@ -1,0 +1,32 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo-sig {
+    width: 17rem;
+    height: auto;
+    margin-left: 150px;
+}
+
+.navbar-nav {
+    margin-right: 150px;
+}
+
+.red-borderbottom {
+    border-bottom: 5px solid red;
+
+}
+
+.nav-link {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: red;
+}
+
