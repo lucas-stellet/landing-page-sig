@@ -6,6 +6,8 @@ input {
     text-align: center;
 }
 
+/* ANIMAÇÃO DA SETA */
+
 /* NAVBAR */
 
 .logo-sig {
@@ -45,7 +47,7 @@ input {
 
 /* PROPOSTA */
 
-#proposta {    
+#proposta {
     background-image: url("/assets/img/background-parceria-1.jpg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -70,7 +72,7 @@ input {
 }
 
 .proposta-text strong {
-    font-weight: 800; 
+    font-weight: 800;
 }
 
 .proposta-form {
@@ -84,4 +86,33 @@ input {
     margin-left: 15px;
     border-radius: 50px;
     font-size: 0.9rem;
+}
+
+#seta {
+    width: auto;
+    height: 60px;
+    animation: pulse 1.5s linear 5;
+    animation-direction: alternate;
+}
+
+.seta a {
+    color: transparent;
+}
+
+/* ANIMAÇÃO DA SETA */
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(0, 30px);
+        transform: translate(0, 30px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        
+    }
 }

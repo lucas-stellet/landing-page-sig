@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     /* Awesomplete Plugin */
     new Awesomplete('input[type="email"]', {
-        list: ["aol.com", "att.net", "comcast.net", "facebook.com", "gmail.com", "gmx.com", "googlemail.com", "google.com", "hotmail.com", "hotmail.co.uk", "mac.com", "me.com", "mail.com", "msn.com", "live.com", "sbcglobal.net", "verizon.net", "yahoo.com", "yahoo.co.uk"],
+        list: ["ig.com.br", "globo.com", "bol.com.br", "gmail.com", "googlemail.com", "google.com", "hotmail.com", "outlook.com","msn.com", "live.com", "yahoo.com", "yahoo.com.br", "terra.com.br"],
         data: function (text, input) {
             return input.slice(0, input.indexOf("@")) + "@" + text;
         },
