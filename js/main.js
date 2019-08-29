@@ -1,5 +1,8 @@
 $(document).ready(function () {
     'use strict'
+    
+    /* AOS Plugin */
+    AOS.init();
 
     /* Jquery Mask Plugin
     Plugin que mascara os dados inseridos pelo usuário no formulário de contato.*/
