@@ -38,3 +38,16 @@ body {
 .navbar-light .navbar-nav .active>.nav-link {
     color: red;
 }
+
+/* PROPOSTA */
+
+.proposta-main {
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.proposta-text {
+    font-size: 2.5rem;
+}
+
