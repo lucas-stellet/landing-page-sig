@@ -12,6 +12,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/custom.css">
     <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="node_modules/awesomplete/awesomplete.theme.css" />
+
 
     <!-- Google Font Link-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,800i,900&display=swap"
@@ -67,7 +69,7 @@
                                 <div class="row">
                                     <p>
                                         <strong>Aumente os lucros</strong> da sua contabilidade <strong> vendendo
-                                            ceritificados
+                                            certificados
                                             digitais
                                         </strong>com garantia, segurança e suporte
                                         técnico especializado.
@@ -79,23 +81,24 @@
 
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 proposta-form">
                                 <form>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="contato-form-name" aria-describedby="emailHelp"
-                                            placeholder="Nome">
+                                        <input type="text" class="form-control" id="contato-form-name"
+                                            placeholder="Nome" required minlength="2">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="contato-form-email" aria-describedby="emailHelp"
-                                            placeholder="E-mail">
+                                        <input type="email" class="form-control" id="contato-form-email"
+                                            placeholder="E-mail" required>
                                     </div>
                                     <div class="form-inline">
-                                        <input type="tel" class="form-control" id="contato-form-fone" placeholder="Celular / Whatsapp">
-                                        <button type="submit" class="btn btn-danger">PROPOSTA</button>
+                                        <input type="tel" class="form-control" id="contato-form-fone"
+                                            placeholder="Celular / Whatsapp" required>
+                                        <button type="submit" class="btn btn-danger btn-proposal">PROPOSTA</button>
                                     </div>
                                 </form>
                             </div>
-                        </div>   
+                        </div>
                     </div>
                 </div>
 
@@ -109,6 +112,7 @@
     <script src="./node_modules/popper.js/dist/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="node_modules/awesomplete/awesomplete.min.js" async></script>
     <script src="js/main.js"></script>
 
 
