@@ -61,14 +61,14 @@ input {
 }
 
 .proposta-main {
-    padding-top: 10%;
+    margin-top: 15%;
 }
 
 .proposta-text {
     font-size: 2.5rem;
     margin-left: 5%;
     color: white;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .proposta-text strong {
@@ -113,6 +113,50 @@ input {
     100% {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
-        
     }
 }
+
+/* MERCADO */
+
+#mercado {
+    background-image: url("/assets/img/background-parceria-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    min-height: 100vh;
+    height: auto;
+    color: white
+}
+
+.mercado-main {
+    margin-top: 18%;
+    color: white;
+}
+
+.mercado-txt1 p {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mercado-txt1 strong {
+    font-weight: 800;
+}
+
+.mercado-txt2 p:nth-child(1){
+    font-size: 8rem;
+    font-size: 900;
+    margin-bottom: 0;
+}
+
+.mercado-txt2 p:nth-child(2) {
+    font-size: 2.2rem;
+    font-weight: 200;
+    background-color: red;
+}
+
+.mercado-txt3 p {}

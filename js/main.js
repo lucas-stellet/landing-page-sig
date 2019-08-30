@@ -1,6 +1,6 @@
 $(document).ready(function () {
     'use strict'
-    
+
     /* AOS Plugin */
     AOS.init();
 
@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     /* Awesomplete Plugin */
     new Awesomplete('input[type="email"]', {
-        list: ["ig.com.br", "globo.com", "bol.com.br", "gmail.com", "googlemail.com", "google.com", "hotmail.com", "outlook.com","msn.com", "live.com", "yahoo.com", "yahoo.com.br", "terra.com.br"],
+        list: ["ig.com.br", "globo.com", "bol.com.br", "gmail.com", "googlemail.com", "google.com", "hotmail.com", "outlook.com", "msn.com", "live.com", "yahoo.com", "yahoo.com.br", "terra.com.br"],
         data: function (text, input) {
             return input.slice(0, input.indexOf("@")) + "@" + text;
         },
@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     // smooth scrolling
     var scrollLink = $('.scroll');
-    
+
     scrollLink.click(function (e) {
         e.preventDefault();
         $('body, html').animate({
@@ -30,16 +30,22 @@ $(document).ready(function () {
     // Active link switch
     $(window).scroll(function () {
         var scrollbarLocation = $(this).scrollTop();
+        
+        let sectionOffset = 0;
 
         scrollLink.each(function () {
-            var sectionOffset = $(this.hash).offset().top - 20;
+            if ($(this.hash).offset() != undefined) {
+                sectionOffset = $(this.hash).offset().top - 20;
+            }
+
+            
 
             if (sectionOffset <= scrollbarLocation) {
                 $(this).parent().addClass('active');
                 $(this).parent().siblings().removeClass('active');
             }
         })
-    })
+    });
 
 });
 
