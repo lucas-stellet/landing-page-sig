@@ -68,7 +68,7 @@ input {
     font-size: 2.5rem;
     margin-left: 5%;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .proposta-text strong {
@@ -139,7 +139,7 @@ input {
 
 .mercado-txt1 p {
     font-size: 2.5rem;
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -155,13 +155,13 @@ input {
 
 .mercado-txt2 p:nth-child(2) {
     font-size: 2.2rem;
-    font-weight: 200;
+    font-weight: 300;
     background-color: red;
 }
 
 /* E-COMMERCE */
 
-#mercado {
+#ecommerce {
     background-color: white;
     background-repeat: no-repeat;
     background-size: auto;
@@ -169,18 +169,42 @@ input {
     background-position: center;
     background-size: cover;
     padding-left: 8%;
-    padding-right: 8%;
     min-height: 100vh;
     height: auto;
-    color: white
 }
 
 .ecommerce-main {
-    padding-top: 0%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .ecommerce-img {
     width: auto;
-    height: 400px;
+    height: 480px;
+}
+
+.ecommerce-txt p {
+    display: flex;
+    margin: 1px;
+    padding: 0;
+}
+
+.ecommerce-txt1 hr{
+    border-width: 2px;
+    border-color: black;
+    width: 615px;    
+}
+
+.ecommerce-txt1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.ecommerce-txt1 strong{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.ecommerce-txt2 {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
