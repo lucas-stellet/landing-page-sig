@@ -188,10 +188,10 @@ input {
     padding: 0;
 }
 
-.ecommerce-txt1 hr{
+.ecommerce-txt1 hr {
     border-width: 2px;
     border-color: black;
-    width: 615px;    
+    width: 615px;
 }
 
 .ecommerce-txt1 {
@@ -199,7 +199,7 @@ input {
     font-weight: 300;
 }
 
-.ecommerce-txt1 strong{
+.ecommerce-txt1 strong {
     font-weight: 800;
     font-size: 2.5rem;
 }
@@ -207,4 +207,54 @@ input {
 .ecommerce-txt2 {
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+/* SISTEMA */
+
+#sistema {
+    background-image: url("/assets/img/background-parceria-3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    min-height: 100vh;
+    height: auto;
+    color: white;
+}
+
+.sistema-main {
+    margin-top: 8%;
+}
+
+.sistema-img {
+    width: auto;
+    height: 450px;
+}
+
+.sistema-main-txt {
+    padding-top: 2%;
+    padding-left: 8%;
+}
+
+.sistema-main-title {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.sistema-main-title strong {
+    font-weight: 800;
+}
+
+.sistema-main-list ul li strong {
+    font-weight: 800;
+}
+
+.sistema-form {
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: content-box;
 }
