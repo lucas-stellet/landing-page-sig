@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/custom.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="node_modules/awesomplete/awesomplete.css" />
     <link rel="stylesheet" href="node_modules/awesomplete/awesomplete.theme.css" />
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
 
 
     <!-- Google Font Link-->
@@ -91,8 +92,8 @@
                                             placeholder="Nome" required minlength="2">
                                     </div>
                                     <div class="form-group">
-                                        <input name="email" type="email" class="form-control" id="contato-form-email"
-                                            placeholder="E-mail" required autocomplete="off">
+                                        <input name="email" type="email" class="form-control awesomplete" id="contato-form-email"
+                                            placeholder="E-mail" required autocomplete="off" >
                                     </div>
                                     <div class="form-inline">
                                         <input name="celular" type="tel" class="form-control" id="contato-form-fone"
@@ -268,11 +269,11 @@
     <script src="./node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
     <script src="node_modules/awesomplete/awesomplete.min.js" async></script>
     <script src="node_modules/aos/dist/aos.js"></script>
-    <script src="js/main.js"></script>
     <script src="/js/jquery.counterup.min.js"></script>
     <script src="/js/jquery.waypoints.min.js"></script>
     <script src="js/counterup.js"></script>
-    <!-- <script src="/js/googleSheet.js"></script> -->
+    <script src="/js/googleSheet.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

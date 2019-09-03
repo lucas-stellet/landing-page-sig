@@ -16,7 +16,7 @@ $(document).ready(function () {
         },
         filter: Awesomplete.FILTER_STARTSWITH
     });
-
+    
     // smooth scrolling
     var scrollLink = $('.scroll');
 

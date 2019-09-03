@@ -4,6 +4,9 @@ const form = document.forms['formulario-identificação']
 form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => console.log('Success!', response))
+        .then(response => {
+            console.log('Success!', response);
+            window.location = '';
+        })
         .catch(error => console.error('Error!', error.message))
 })

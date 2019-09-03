@@ -258,3 +258,7 @@ input {
     border-radius: 20px;
     box-sizing: content-box;
 }
+
+.awesomplete {
+    display: block;
+}
