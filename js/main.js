@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     /* Jquery Mask Plugin
     Plugin que mascara os dados inseridos pelo usuário no formulário de contato.*/
-    $('#contato-form-fone').mask('(00) 00000-0000');
+    $('.contato-form-fone').mask('(00) 00000-0000');
 
     /* Awesomplete Plugin */
     new Awesomplete('input[type="email"]', {
@@ -16,7 +16,7 @@ $(document).ready(function () {
         },
         filter: Awesomplete.FILTER_STARTSWITH
     });
-    
+
     // smooth scrolling
     var scrollLink = $('.scroll');
 
