@@ -226,10 +226,11 @@ input {
 }
 
 .sistema-main {
-    margin-top: 8%;
+    margin-top: 9%;
 }
 
 .sistema-img {
+    margin-left: 8%;
     width: auto;
     height: 450px;
 }
@@ -253,6 +254,7 @@ input {
 }
 
 .sistema-form {
+    margin-top: 5%;
     border: 1px solid white;
     padding: 1%;
     border-radius: 20px;
