@@ -254,11 +254,21 @@ input {
 }
 
 .sistema-form {
-    margin-top: 5%;
+    margin-top: 2%;
     border: 1px solid white;
     padding: 1%;
-    border-radius: 20px;
     box-sizing: content-box;
+    border-radius: 20px;
+}
+
+.form-control {
+    border-radius: 30px;
+}
+
+.contato-form {
+    width: 240px;
+    margin: 2px 5px;
+    border-radius: 20px;
 }
 
 .awesomplete {

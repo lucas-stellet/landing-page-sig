@@ -236,23 +236,13 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-12" data-aos="fade-up"
+                    <div class="col-md-10" data-aos="fade-up"
                         data-aos-delay="50" data-aos-offset="50">
-                        <form>
-                            <div class="form-inline sistema-form">
-                                <div class="col-md-3 d-flex justify-content-center">
-                                    <input type="text" class="form-control" id="contato-form-name" placeholder="Nome" required minlength="2">
-                                </div>
-                                <div class="col-md-4 d-flex justify-content-center">
-                                    <input type="email" class="form-control" id="contato-form-email" placeholder="E-mail" required autocomplete="off">
-                                </div>
-                                <div class="col-md-3 d-flex justify-content-center">
-                                    <input type="tel" class="form-control" id="contato-form-fone" placeholder="Celular / Whatsapp" required>
-                                </div>
-                                <div class="col-md-2 d-flex justify-content-center">
-                                    <button type="submit" class="btn btn-danger btn-proposal">PROPOSTA</button>
-                                </div>
-                            </div>
+                        <form class="sistema-form">
+                            <input type="text" name="nome" placeholder="Nome" required class="contato-form">
+                            <input type="email" name="email" placeholder="E-mail" required class="contato-form">
+                            <input type="tel" name="celular" placeholder="Celular / Whatsapp" required class="contato-form">
+                            <button type="submit" class="btn btn-danger btn-proposal">PROPOSTA</button>
                         </form>
                     </div>
                 </div>
