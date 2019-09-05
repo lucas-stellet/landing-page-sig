@@ -58,7 +58,7 @@ input {
 
 .nav-item.active {
     background: red;
-    padding: 11px;
+    padding: 12px;
 }
 
 .nav-item {
