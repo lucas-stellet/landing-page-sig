@@ -11,7 +11,7 @@ $(document).ready(function () {
     /* Jquery Plugin AutoComplete */
     $('.contato-form-email').autoEmail(
         [
-            "ig.com.br", "globo.com", "bol.com.br", "googlemail.com", "google.com", "hotmail.com", "outlook.com", "msn.com", "live.com", "yahoo.com", "yahoo.com.br", "terra.com.br"
+            "ig.com.br", "globo.com", "bol.com.br", "hotmail.com", "outlook.com", "msn.com", "live.com", "yahoo.com", "yahoo.com.br", "terra.com.br", "uol.com.br", "sigcertificadora.com.br"
         ],
         'gmail.com'
     )

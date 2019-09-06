@@ -1,0 +1,45 @@
+/* @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media only screen and (min-width: 1200px) {} */
+
+@media only screen and (min-width: 1353px) and (min-height: 784px) {
+
+    .proposta-text {
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 300;    
+    }
+
+    .proposta-form {
+    border: 1px solid white;
+    padding: 8% 12%;
+    border-radius: 20px;
+    box-sizing: content-box;
+    font-size: 4rem;
+}
+
+    .form-group {
+
+    }
+
+    .form-control {
+        width: 500px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .btn-proposal {
+        font-size: 1.4rem;
+        margin-left: 10%;
+    }
+
+    #seta {
+    width: auto;
+    height: 100px;
+    animation: pulse 1.5s linear 5;
+    animation-direction: alternate;
+    }
+
+}
