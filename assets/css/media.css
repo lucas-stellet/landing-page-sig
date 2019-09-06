@@ -4,7 +4,8 @@
 
 @media only screen and (min-width: 1200px) {} */
 
-@media only screen and (min-width: 1353px) and (min-height: 784px) {
+@media only screen and (min-width: 1693px) and (min-height: 784px) {
+    
 
     .proposta-text {
         font-size: 3.5rem;
@@ -13,16 +14,12 @@
     }
 
     .proposta-form {
-    border: 1px solid white;
-    padding: 8% 12%;
-    border-radius: 20px;
-    box-sizing: content-box;
-    font-size: 4rem;
+        border: 1px solid white;
+        padding: 8% 12%;
+        border-radius: 20px;
+        box-sizing: content-box;
+        font-size: 4rem;
 }
-
-    .form-group {
-
-    }
 
     .form-control {
         width: 500px;
@@ -42,4 +39,75 @@
     animation-direction: alternate;
     }
 
+    .mercado-txt1 p {
+    font-size: 3.5rem;
+    text-align: center;
 }
+
+.mercado-txt2 p:nth-child(1) {
+    font-size: 10rem;
+    font-size: 900;
+    margin-bottom: 0;
+}
+
+.mercado-txt2 p:nth-child(2) {
+    font-size: 3.2rem;
+    font-weight: 300;
+    background-color: red;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.ecommerce-img {
+    height: 650px;
+}
+
+.ecommerce-txt1 hr {
+    border-width: 4px;
+    border-color: black;
+    width: 860px;
+}
+
+.ecommerce-txt1 {
+    font-size: 3rem;
+}
+
+.ecommerce-txt1 strong {
+    font-size: 3.5rem;
+}
+
+.ecommerce-txt2 {
+    font-size: 2.2rem;
+}
+
+.sistema-img {
+    height: 650px;
+}
+
+.sistema-main-title {
+    font-size: 3.2rem;
+}
+
+ul {
+    font-size: 1.3rem;
+}
+
+.contato-form {
+    width: 318px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+.btn-margin {
+    margin-left: 6%;
+    margin-bottom: 7px;
+}
+}
+
+@media only screen (min-width: 1354px) and (min-height: 784px){
+    .ecommerce-txt1 hr {
+    width: 680px;
+}
+}
+
+
