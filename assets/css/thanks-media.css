@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1354px) and (min-height: 784px) {
+
+    main {
+        background: white;
+        margin-top: 10px;
+        margin-bottom: 1px;
+    }
+
+    #logo {
+        width: 400px;
+        margin-bottom: 10%;
+    }    
+
+    #thanks-botao {
+        width: 900px;
+    }
+
+    .thanks-txt {
+        margin-top: 8%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .thanks-links {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    }

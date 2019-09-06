@@ -1,0 +1,30 @@
+    body {
+        background: red;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    main {
+        background: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 98vh;
+    }
+
+    a {
+        color: red;
+    }
+
+    a:hover {
+        color: #3d1414;
+        text-decoration: none;
+    }
+    #logo {
+        width: 250px;
+        height: 100%;
+    }
+
+    #thanks-botao {
+        width: 500px;
+        height: 100%;
+    }
+

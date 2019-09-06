@@ -7,7 +7,7 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             console.log('Success!', response);
-            window.location = '';
+            window.location = '/thanks.html';
         })
         .catch(error => console.error('Error!', error.message))
 })
@@ -17,7 +17,7 @@ form2.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form2) })
         .then(response => {
             console.log('Success!', response);
-            window.location = '';
+            window.location = '/thanks.html';
         })
         .catch(error => console.error('Error!', error.message))
 })
