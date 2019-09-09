@@ -21,10 +21,22 @@
     #logo {
         width: 250px;
         height: 100%;
+        margin-bottom: 10%;
     }
 
     #thanks-botao {
         width: 500px;
         height: 100%;
+    }
+
+    .thanks-txt {
+        margin-top: 8%;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .thanks-links {
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 
